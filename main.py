@@ -28,7 +28,7 @@ app = Flask(__name__)
 
 VERSION = "v2"
 api = Api(
-    title="flask-rater",
+    title="flask-api-microservice-example",
     description="for flask API for module",
     version=VERSION,
     prefix=f"/api/{VERSION}",
