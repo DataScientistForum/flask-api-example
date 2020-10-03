@@ -10,7 +10,7 @@ from marshmallow import ValidationError
 
 VERSION = os.getenv("VER")
 api = Api(
-    title="flask-rater",
+    title="flask-api-microservice-example",
     version=VERSION,
     prefix=f"/api/{VERSION}",
     doc="/" if os.getenv("FLASK_ENV") == "development" else False,
